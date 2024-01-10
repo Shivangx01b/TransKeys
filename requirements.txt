@@ -1,0 +1,7 @@
+tensorflow==2.15.0 
+scikit-learn==1.3.0 
+numpy==1.25.2 
+pandas==2.0.3
+torch==2.1.0
+fastapi[all]
+gunicorn
