@@ -85,7 +85,7 @@ async def predict(sentence_data: Sentence):
         elif prediction == 1:
             predictions.append((word, 'AWS Secret Key'))
     if len(predictions) == 0:
-        return {"No AWS keys found for": sentence}
+        return {"No AWS keys found ": sentence}
     else:
         return {"sentence": sentence, "prediction": predictions}
 
